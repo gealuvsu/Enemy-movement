@@ -1,0 +1,11 @@
+//enemy movement
+
+//declare hspeed variable
+
+hspeed = 4;
+
+//Horizontal collision
+if (place_meeting(x + hspeed, y, obj_obstacle))
+{
+	hspeed = -hspeed
+}
